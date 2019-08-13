@@ -1,0 +1,25 @@
+{
+  "name": "15_api-express-jwt-auth-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server/api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "@ajar/marker": "^1.2.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.6",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.1"
+  }
+}
